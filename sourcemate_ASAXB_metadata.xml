@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags>
+<metatag name="XmlRootNode" description="ASAXB - Used to specify that the root node local name associated with the class that is being marshalled." classes="true" variables="false" functions="false" getters="false" setters="false" public="true" private="false" protected="false" internal="false" defaultAttribute="" onlyDefaultSyntax="false" since="" allowCustomAttributes="false">
+     <attribute name="name" datatype="0" description="" required="true"  defaultValue="" choices="" asType="" insertedByProposal="true" validForClasses="true" validForVariables="true" validForFunctions="true" validForGetters="true" validForSetters="true"  />
+</metatag>
+<metatag name="XmlAttribute" description="ASAXB - Used to specify that the associated member is to be marshalled to and from an xml attribute of the root object node" classes="false" variables="true" functions="false" getters="true" setters="false" public="true" private="false" protected="false" internal="false" defaultAttribute="" onlyDefaultSyntax="false" since="" allowCustomAttributes="false">
+     <attribute name="name" datatype="0" description="" required="true"  defaultValue="" choices="" asType="" insertedByProposal="true" validForClasses="true" validForVariables="true" validForFunctions="true" validForGetters="true" validForSetters="true"  />
+</metatag>
+<metatag name="XmlElement" description="ASAXB - Used to specify that the associated member is to be marshalled to and from an xml element of the root object node" classes="false" variables="true" functions="false" getters="true" setters="false" public="true" private="false" protected="false" internal="false" defaultAttribute="" onlyDefaultSyntax="false" since="" allowCustomAttributes="false">
+     <attribute name="name" datatype="0" description="" required="true"  defaultValue="" choices="" asType="" insertedByProposal="true" validForClasses="true" validForVariables="true" validForFunctions="true" validForGetters="true" validForSetters="true"  />
+</metatag>
+<metatag name="XmlElements" description="ASAXB - Used to specify that the associated member is to be marshalled to and from a lists of XML nodes with their own structure. The variable or getter/setter must currently return an array of objects whose type is also specified in the metadata." classes="false" variables="true" functions="false" getters="true" setters="false" public="true" private="false" protected="false" internal="false" defaultAttribute="" onlyDefaultSyntax="false" since="" allowCustomAttributes="false">
+     <attribute name="name" datatype="0" description="" required="true"  defaultValue="" choices="" asType="" insertedByProposal="true" validForClasses="true" validForVariables="true" validForFunctions="true" validForGetters="true" validForSetters="true"  />
+     <attribute name="type" datatype="0" description="" required="true"  defaultValue="" choices="" asType="" insertedByProposal="true" validForClasses="true" validForVariables="true" validForFunctions="true" validForGetters="true" validForSetters="true"  />
+</metatag>
+<metatag name="XmlElementWrapper" description="ASAXB - Used to specify that the associated element or elemenst should be wrapped by a node with the specified name." classes="false" variables="true" functions="false" getters="true" setters="false" public="true" private="false" protected="false" internal="false" defaultAttribute="" onlyDefaultSyntax="false" since="" allowCustomAttributes="false">
+     <attribute name="name" datatype="0" description="" required="true"  defaultValue="" choices="" asType="" insertedByProposal="true" validForClasses="true" validForVariables="true" validForFunctions="true" validForGetters="true" validForSetters="true"  />
+</metatag>
+</tags>
