@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<templates>
+	
+	<template autoinsert="true" context="com.elementriver.sourcemate.asContextType" deleted="false" description="Add Signal" enabled="true" id="sourcemate.add_signal" name="add_signal">var addSignal:NativeSignal = new NativeSignal(this, Event.ADDED_TO_STAGE, Event);</template>
+
+	<template autoinsert="true" context="com.elementriver.sourcemate.asContextType" deleted="false" description="Click Signal" enabled="true" id="sourcemate.click_signal" name="click_signal">var ${name}:NativeSignal = new NativeSignal(${target}, MouseEvent.CLICK, MouseEvent);</template>
+
+	<template autoinsert="true" context="com.elementriver.sourcemate.asContextType" deleted="false" description="Complete Signal" enabled="true" id="sourcemate.complete_signal" name="complete_signal">var ${name}:NativeSignal = new NativeSignal(${dispatcher}, Event.COMPLETE, Event);</template>
+
+	<template autoinsert="true" context="com.elementriver.sourcemate.asContextType" deleted="false" description="Error Signal" enabled="true" id="sourcemate.error_signal" name="error_signal">var ${name}:NativeSignal = new NativeSignal(${dispatcher}, IOErrorEvent.IO_ERROR, IOErrorEvent);</template>
+
+	<template autoinsert="true" context="com.elementriver.sourcemate.asContextType" deleted="false" description="Mouse Out Signal" enabled="true" id="sourcemate.mouse_out_signal" name="mouse_out_signal">var ${name}:NativeSignal = new NativeSignal(${target}, MouseEvent.MOUSE_OUT, MouseEvent);</template>
+
+	<template autoinsert="true" context="com.elementriver.sourcemate.asContextType" deleted="false" description="Mouse Over Signal" enabled="true" id="sourcemate.mouse_over_signal" name="mouse_over_signal">var ${name}:NativeSignal = new NativeSignal(${target}, MouseEvent.MOUSE_OVER, MouseEvent);</template>
+
+	<template autoinsert="true" context="com.elementriver.sourcemate.asContextType" deleted="false" description="Native Signal (Class)" enabled="true" id="sourcemate.native_signal_class" name="native_signal_class">${name} = new NativeSignal(${target}, ${eventClass}.${constant}, ${eventClass});</template>
+
+	<template autoinsert="true" context="com.elementriver.sourcemate.asContextType" deleted="false" description="Native Signal (Local)" enabled="true" id="sourcemate.native_signal_local" name="native_signal_local">var ${name}:NativeSignal = new NativeSignal(${target}, ${eventClass}.${constant}, ${eventClass});</template>
+
+	<template autoinsert="true" context="com.elementriver.sourcemate.asContextType" deleted="false" description="Progress Signal" enabled="true" id="sourcemate.progress_signal" name="progress_signal">${name} = new NativeSignal(${dispatcher}, ProgressEvent.PROGRESS, ProgressEvent);</template>
+
+</templates>

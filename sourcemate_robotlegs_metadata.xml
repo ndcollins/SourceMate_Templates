@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tags>
+<metatag name="Inject" description="Used by RobotLegs to Inject a dependency into a given class" classes="false" variables="true" functions="false" getters="false" setters="false" public="true" private="false" protected="false" internal="false" defaultAttribute="" onlyDefaultSyntax="false" since="" allowCustomAttributes="false">
+     <attribute name="name" datatype="0" description="" required="false"  defaultValue="" choices="" asType="" insertedByProposal="false" validForClasses="true" validForVariables="true" validForFunctions="true" validForGetters="true" validForSetters="true"  />
+</metatag>
+<metatag name="PostConstruct" description="Used by RobotLegs and causes methods to be invoked directly after all injections have completed" classes="false" variables="false" functions="true" getters="false" setters="false" public="true" private="false" protected="false" internal="false" defaultAttribute="" onlyDefaultSyntax="false" since="" allowCustomAttributes="false">
+     <attribute name="order" datatype="1" description="" required="false"  defaultValue="" choices="" asType="" insertedByProposal="false" validForClasses="false" validForVariables="false" validForFunctions="true" validForGetters="false" validForSetters="false"  />
+</metatag>
+</tags>
